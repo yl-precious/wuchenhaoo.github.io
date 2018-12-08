@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Nice Place</title>
-
 </head>
 <body>
 <div class="div1">
@@ -12,17 +10,55 @@
 	<section class="autowidth_desc">in IVIPC lab of UESTC.</section>
 	<section class="autowidth_tagline">But nothing is done, not yet.</section>
 	<section class="autowidth_desc">There's a long way to go, good luck. 😈</section>
-
 </div>
-</body>
-	<style>
+<div style="background-image:url(./background1.png); background-repeat:no-repeat; background-attachment:fixed; height:150px; background-size:cover;">
+	<div style="padding-top:100px; text-align:center; color:#bbb; font-size:1.2rem; font-weight:300;" id="prompt">↓ some thoughts are shown below ↓</div>
+</div>
+<div class="Index_works">
+        <div class="Index_works_contents">
+			<div class="row sqs-row">
+			  <div class="writting_title">
+				  <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1532409004043_15093">
+					  <div class="work_set_name">Thoughts  Set</div>
+				  </div>
+			  </div>
+		  <div class="writting_content">
+			<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7edb9b7c30c0944a7d07">
+				<div class="sqs-block-content">
+					<h2 style="color:#555; text-align:center; padding-top:30px; font-size:2rem">nothing new for now, some webs are shown</h2>
+					<p class="discribe" style="height:30px;"></p>
+					<h2><a target="_blank" href="https://www.jianshu.com/u/0c4689e9b200">A place to write</a></h2>
+					<p class="discribe">Dec 2018 –&nbsp;我和师兄弟们对meeting和paper reading的记录</p>
+					<h2><a target="_blank" href="http://for-my-kindle-224414.appspot.com">A powful server for my kindle</a></h2>
+					<p class="discribe">Dec 2018 –&nbsp;在GAE上搭建的kindle推送服务器，每天定时推送各信息源的RSS到kindle上</p>
+					<h2><a target="_blank" href=></a></h2>
+					<p class="discribe"></p>					
+				</div>
+			</div>
+		 </div>
+		 <div class="col sqs-col-3 span-3">
+			<div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-4f129eb6dc03ba97487c">
+				<div class="sqs-block-content">&nbsp;</div>
+			</div>
+		 </div>
+			</div>
+		</div>
+		<div class="my_information">
+			<div style="font-size:1rem; font-weight:100;">Chenhao Wu</div>
+			<h1 style="font-size:0.75rem; font-weight:100;">
+			©2018. All rights reserved. Feel free to contact me at 
+			<a target="_blank" href="mailto:wuchenhao@hrbeu.edu.cn" style="color:#999;">wuchenhao@hrbeu.edu.cn</a>
+			</h1>
+		</div>
+</div>
+<style>
 	.autowidth_tagline{
 		display:block;
 		color:#444;
 		line-height:1;
 		font-size:2.8rem;
 		text-align:left;
-		font-weight:700;
+		font-weight:600;
 		padding-top:1.5rem;
 		padding-left:180px;
 	}
@@ -41,5 +77,56 @@
 	.div1{
 		padding-top:6rem;
 	}
+	.Index_works{
+		text-align:left;
+		padding-top:0px;
+		padding-left:50px;
+	}
+	.Index_works_contents{
+		padding-top:30px;
+		padding-right:150px;
+	}
+	a:link{
+		color:#555;
+		transition: color 0.3s ease-out;
+	}
+	a:visited{
+		color:#555;
+		transition: color 0.3s ease-out;
+	}
+	a:hover{
+		color:#999;
+	}
+	.discribe{
+		color:#aaa;
+	}
+	.work_set_name{
+		padding-left:50px;
+		font-weight:100;
+		font-size:2rem;
+		color:#999;
+	}
+	.writting_content{
+		padding-top:10px;
+		padding-left:200px;
+		padding-right:100px;
+		font-size:1rem;
+		font-weight:300;
+	}
+	.my_information{
+		padding-top:60px;
+		padding-bottom:50px;
+		padding-left:200px;
+		color:#999;
+	}
 </style>
-</html>
+    <script type="text/javascript">
+    var prompt = document.getElementById('prompt');
+    window.onscroll = function() {
+        var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+        var opacity;
+        opcaity = (1 - (scrollTop / 400) > 0) ? 1 - (scrollTop / 200) : 0;
+        prompt.style.opacity = opcaity;
+    }
+    </script>
+</body></html>
