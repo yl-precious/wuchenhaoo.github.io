@@ -21,5 +21,8 @@
     <outline type="rss" title="arxiv-CV" xmlUrl="http://export.arxiv.org/rss/cs.CV" />
     <outline type="rss" title="arxiv-ML" xmlUrl="http://export.arxiv.org/rss/stat.ML" />
   </outline>
+  <outline text="news">
+    <outline type="rss" title="豆瓣书评" xmlUrl="https://www.douban.com/feed/review/book" />
+    <outline type="rss" title="豆瓣影评" xmlUrl="https://www.douban.com/feed/review/movie" />
  </body>
 </opml>
