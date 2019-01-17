@@ -24,5 +24,6 @@
   <outline text="news">
     <outline type="rss" title="豆瓣书评" xmlUrl="https://www.douban.com/feed/review/book" />
     <outline type="rss" title="豆瓣影评" xmlUrl="https://www.douban.com/feed/review/movie" />
+  </outline>
  </body>
 </opml>
