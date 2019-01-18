@@ -5,17 +5,8 @@
  </head>
  <body>
    <outline text="订阅文章">
-  
-     <outline type="rss" title="智能单元" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/intelligentunit.xml" htmlUrl="https://zhuanlan.zhihu.com/intelligentunit"/>
-  
-    <outline type="rss" title="Hic Rhodus, hic salta" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/HicRhodushicsalta.xml" htmlUrl="https://zhuanlan.zhihu.com/HicRhodushicsalta"/>
-  
-    <outline type="rss" title="ResysChina" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/resyschina.xml" htmlUrl="https://zhuanlan.zhihu.com/resyschina"/>
-     
-    <outline type="rss" title="PaperWeekly" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/zhihu/zhuanlan/AI/paperweekly.xml" htmlUrl="https://zhuanlan.zhihu.com/paperweekly"/>
- 
-    <outline type="rss" title="机器之心" xmlUrl="https://raw.githubusercontent.com/RickyWong33/Machine_Learning_RSS/master/weixin/AI/jiqizhixin.xml"/>
     <outline type="rss" title="谷歌研发博客" xmlUrl="http://feeds.feedburner.com/blogspot/gJZg/" htmlUrl="https://research.googleblog.com/"/>
+    <outline type="rss" title="机器之心" xmlUrl="https://blog.csdn.net/uwr44uouqcnsuqb60zk2/rss/list" />
   </outline>
   <outline text="arxiv">
     <outline type="rss" title="arxiv-CV" xmlUrl="http://export.arxiv.org/rss/cs.CV" />
